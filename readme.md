@@ -9,6 +9,8 @@ Once done expose this model with an API endpoint that can return us a list of 10
 structure:
 ```
 |
+|- api         -> folder with api app
+|
 |- data        -> folder with external and processed data
 |
 |- notebooks   -> folder with notebooks

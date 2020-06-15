@@ -3,6 +3,7 @@ import itertools
 from datetime import datetime
 from lightfm import LightFM
 from scipy.sparse import coo_matrix
+import pickle
 
 
 def sample_hyperparameters():
@@ -123,3 +124,5 @@ def mDCG(correct: dict, predictions: dict):
         total_sum += DCG(correct[user], predictions[user])
     total_num = len(correct)
     return total_sum/total_num
+  
+        
