@@ -133,3 +133,4 @@ env/
 *.csv
 .DS_Store
 .idea
+*.pickle
