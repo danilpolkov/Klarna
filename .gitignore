@@ -131,3 +131,4 @@ dmypy.json
 # other
 env/
 *.csv
+.DS_Store
